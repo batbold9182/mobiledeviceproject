@@ -3,38 +3,53 @@
     "name": "MobileDeviceProject",
     "slug": "MobileDeviceProject",
     "version": "1.0.0",
+    "scheme": "mobiledeviceproject",              
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "mobiledeviceproject",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+    "icon": "./components/icon/icon.png",
+    "splash": {
+      "image": "./components/icon/splash.png",
+      "dark": {
+        "image": "./components/icon/dark.png"
       },
-      "edgeToEdgeEnabled": true
-    },
-    "web": {
-      "bundler": "metro",
-      "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./components/icon/splash.png",
+          "dark": {
+            "image": "./components/icon/dark.png"
+          },
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
-      ]
+      ],
+      "expo-dev-client"                            
     ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./components/icon/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "extra": {
+      "expo-router": {
+        "origin": "mobiledeviceproject"
+      }
+    },
     "experiments": {
       "typedRoutes": true
     }

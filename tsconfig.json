@@ -13,5 +13,5 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-  ]
+, "app.js/_layout.js", "app.js/index.js", "context/AuthContext.js", "app/auth/Splashscreen"  ]
 }
