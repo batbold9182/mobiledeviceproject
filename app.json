@@ -3,7 +3,7 @@
     "name": "MobileDeviceProject",
     "slug": "MobileDeviceProject",
     "version": "1.0.0",
-    "scheme": "mobiledeviceproject",              
+    "scheme": "mobiledeviceproject",             
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
     "icon": "./components/icon/icon.png",
