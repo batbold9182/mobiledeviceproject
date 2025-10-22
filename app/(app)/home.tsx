@@ -14,7 +14,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import { Movie } from '../(app)/types/movie';
 import PageHandle from './types/pagehandle';
 
-const API_KEY = 'b5086d70a6c34cbeeaf56b54b81b9363';
+const API_KEY = '';
 const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 
 export default function HomeScreen() {
