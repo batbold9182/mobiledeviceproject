@@ -15,7 +15,7 @@ import {
 import { Movie } from '../types/movie';
 import * as Linking from 'expo-linking';
 
-const API_KEY = 'b5086d70a6c34cbeeaf56b54b81b9363';
+const API_KEY = '';
 const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500';
 
 export default function MovieDetailScreen() {
